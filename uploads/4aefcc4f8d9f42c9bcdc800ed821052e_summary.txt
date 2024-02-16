@@ -1,0 +1,20 @@
+Electronic Health Record
+Patient Name: Miss Thompson
+Date: [current date]
+
+Chief Complaint: Feeling tired and occasional headaches
+
+History of Present Illness:
+Miss Thompson reports feeling more tired than usual lately. She has not noticed any changes in her diet, but has been struggling to get a good night's sleep. She attributes this to increased stress levels at work. She has tried breathing exercises before bed, but they have not always been effective. She also reports occasional headaches over the last few weeks, mostly occurring in the mid-afternoon or earlier if she had a difficult night's sleep.
+
+Past Medical History:
+-No significant medical history reported
+
+Current Medications:
+-None reported
+
+Allergies:
+-None reported
+
+Family History:
+-None
