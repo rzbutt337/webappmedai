@@ -33,7 +33,7 @@ openai.api_key = OPENAI_API_KEY
 def index():
     return render_template('index.html')
     
-@app.route('/favicon.ico')
+@app.route('/static/favicon.ico')
 def favicon():
     return app.send_static_file('favicon.ico')
 
