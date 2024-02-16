@@ -7,6 +7,7 @@ from google.oauth2 import service_account
 import openai
 import base64
 import json
+from gunicorn import util
 
 app = Flask(__name__)
 
@@ -31,6 +32,11 @@ openai.api_key = OPENAI_API_KEY
 @app.route('/')
 def index():
     return render_template('index.html')
+    
+@app.route('/favicon.ico')
+def favicon():
+    return app.send_static_file('favicon.ico')
+
 
 def upload_blob(bucket_name, source_file_path, destination_blob_name):
     """Uploads a file to the specified bucket."""
